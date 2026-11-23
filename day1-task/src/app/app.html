@@ -1,0 +1,67 @@
+<div class="container">
+  <header class="store-header">
+    <h1>{{ storeName }}</h1>
+    <p class="description">{{ storeDescription }}</p>
+    <p class="store-meta">
+      Address: {{ storeAddress }} | Currency: {{ currency }} | Catalog Size: {{ totalProducts }}
+    </p>
+    <p class="status">{{ storeStatus }}</p>
+  </header>
+
+  <section class="featured-section">
+    <h2>Featured Product</h2>
+    <div class="featured-card">
+      <h3>{{ featuredProduct.name }}</h3>
+      <p>{{ featuredProduct.description }}</p>
+      <p class="prices">
+        <span class="original-price">${{ featuredProduct.price }}</span>
+        <span class="final-price">${{ finalPrice }}</span>
+        <span class="discount">{{ discountPercentage }}% Discount</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="products-section">
+    <h2>Our Products</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <h3>{{ productNames[1] }}</h3>
+        <p>${{ productPrices[1] }}</p>
+      </div>
+      <div class="product-card">
+        <h3>{{ productNames[2] }}</h3>
+        <p>${{ productPrices[2] }}</p>
+      </div>
+      <div class="product-card">
+        <h3>{{ productNames[3] }}</h3>
+        <p>${{ productPrices[3] }}</p>
+      </div>
+      <div class="product-card">
+        <h3>{{ productNames[4] }}</h3>
+        <p>${{ productPrices[4] }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="summary-section">
+    <h2>Store Summary</h2>
+    <div class="summary-grid">
+      <div class="summary-card">
+        <p class="summary-value">{{ summaryTotalProducts }}</p>
+        <p class="summary-label">Total Products</p>
+      </div>
+      <div class="summary-card">
+        <p class="summary-value">${{ highestPrice }}</p>
+        <p class="summary-label">Highest Price</p>
+      </div>
+      <div class="summary-card">
+        <p class="summary-value">${{ lowestPrice }}</p>
+        <p class="summary-label">Lowest Price</p>
+      </div>
+      <div class="summary-card">
+        <p class="summary-value">${{ totalProductsValue }}</p>
+        <p class="summary-label">Total Products Value</p>
+      </div>
+    </div>
+  </section>
+</div>
