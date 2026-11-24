@@ -1,0 +1,83 @@
+.details-section {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.details-section h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.details-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+.details-card img {
+  width: 220px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.details-info {
+  flex: 1;
+  min-width: 220px;
+}
+
+.details-info h3 {
+  margin: 0 0 8px 0;
+}
+
+.details-info p {
+  margin: 6px 0;
+}
+
+.quantity-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.quantity-box button {
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.total {
+  font-size: 18px;
+  color: #1a73e8;
+}
+
+.edit-form {
+  flex: 1;
+  min-width: 220px;
+  border-left: 1px solid #ddd;
+  padding-left: 16px;
+}
+
+.edit-form h4 {
+  margin: 0 0 10px 0;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.edit-form input {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

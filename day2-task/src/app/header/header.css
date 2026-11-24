@@ -1,0 +1,20 @@
+.header {
+  text-align: center;
+  background-color: #1a73e8;
+  color: white;
+  padding: 24px 16px;
+}
+
+.header h1 {
+  margin: 0 0 8px 0;
+}
+
+.welcome {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+}
+
+.slogan {
+  margin: 0;
+  font-size: 14px;
+}

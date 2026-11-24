@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="140" viewBox="0 0 220 140">
+  <rect width="220" height="140" rx="10" fill="#fef7e0"/>
+  <path d="M65 85 V65 A45 45 0 0 1 155 65 V85" fill="none" stroke="#ea8600" stroke-width="10" stroke-linecap="round"/>
+  <rect x="54" y="72" width="20" height="36" rx="8" fill="#ea8600"/>
+  <rect x="146" y="72" width="20" height="36" rx="8" fill="#ea8600"/>
+  <text x="110" y="126" font-family="Arial" font-size="13" font-weight="bold" fill="#b06000" text-anchor="middle">Headphones</text>
+</svg>
