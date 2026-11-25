@@ -1,0 +1,27 @@
+<div class="container">
+  <h1>ElectroShop</h1>
+
+  <!-- Part 6: Switch product to test reusability -->
+  <div class="switcher">
+    <button (click)="selectLaptop()">Laptop ($850)</button>
+    <button (click)="selectHeadphones()">Wireless Headphones ($120)</button>
+  </div>
+
+  <!-- Main Layout: Product Details + Shopping Cart -->
+  <div class="layout">
+    <app-product-details
+      [productName]="productName()"
+      [productDescription]="productDescription()"
+      [productPrice]="productPrice()"
+      [isAvailable]="isAvailable()"
+      (addToCart)="onAddToCart($event)"
+    ></app-product-details>
+
+    <app-shopping-cart
+      [productName]="cartProductName()"
+      [productPrice]="cartProductPrice()"
+      [quantity]="cartQuantity()"
+      [totalPrice]="cartTotalPrice()"
+    ></app-shopping-cart>
+  </div>
+</div>
