@@ -8,7 +8,6 @@ import { NgClass, NgStyle } from '@angular/common';
   styleUrl: './product-list.css',
 })
 export class ProductListComponent {
-  // PART 1: Product Data (8 products)
   products = [
     {
       id: 1,
@@ -84,10 +83,8 @@ export class ProductListComponent {
     },
   ];
 
-  // PART 4: Order Status (@switch)
   orderStatus: string = 'Pending';
 
-  // PART 7: Product Categories (@if)
   selectedCategory: string = 'All Products';
 
   buyProduct(productName: string) {
