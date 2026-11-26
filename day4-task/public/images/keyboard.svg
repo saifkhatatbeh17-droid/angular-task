@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="120" viewBox="0 0 200 120">
+  <rect width="200" height="120" rx="8" fill="#fce8e6"/>
+  <rect x="26" y="38" width="148" height="48" rx="6" fill="#d93025"/>
+  <rect x="36" y="47" width="128" height="10" rx="2" fill="#fff"/>
+  <rect x="36" y="64" width="128" height="10" rx="2" fill="#fff"/>
+  <text x="100" y="106" font-family="Arial" font-size="12" font-weight="bold" fill="#a50e0e" text-anchor="middle">Keyboard</text>
+</svg>

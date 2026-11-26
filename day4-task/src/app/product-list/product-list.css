@@ -1,0 +1,135 @@
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 14px;
+  margin-bottom: 18px;
+  background-color: #f9f9f9;
+}
+
+.box h2 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.categories {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.category-msg {
+  margin: 0;
+  color: #333;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.product-card {
+  width: 215px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 14px;
+  background-color: white;
+  text-align: center;
+}
+
+/* PART 5: Dynamic CSS Classes */
+.available-card {
+  border-color: green;
+}
+
+.unavailable-card {
+  border-color: gray;
+  background-color: #f2f2f2;
+}
+
+.discount-card {
+  background-color: #fff8f5;
+}
+
+.premium-card {
+  border-width: 3px;
+  border-color: goldenrod;
+}
+
+.product-card img {
+  width: 100%;
+  height: 110px;
+  object-fit: contain;
+}
+
+.product-card h3 {
+  margin: 8px 0 4px 0;
+}
+
+.category {
+  font-size: 13px;
+  color: #666;
+  margin: 0 0 6px 0;
+}
+
+.price {
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.status-available {
+  color: green;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.status-out {
+  color: red;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.offer {
+  color: orangered;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.no-offer {
+  color: #777;
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+.premium {
+  background-color: gold;
+  color: #222;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 6px 0;
+}
+
+.product-card button {
+  margin-top: 8px;
+  padding: 7px 14px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

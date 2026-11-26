@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="120" viewBox="0 0 200 120">
+  <rect width="200" height="120" rx="8" fill="#f3e8fd"/>
+  <rect x="86" y="12" width="28" height="96" rx="5" fill="#9334e6"/>
+  <rect x="70" y="32" width="60" height="56" rx="12" fill="#681da8"/>
+  <rect x="77" y="39" width="46" height="42" rx="6" fill="#fff"/>
+  <text x="100" y="64" font-family="Arial" font-size="11" font-weight="bold" fill="#681da8" text-anchor="middle">Watch</text>
+</svg>
